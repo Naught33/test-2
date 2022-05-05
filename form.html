@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/s.jpeg">
+    <link rel="stylesheet" href="class%20styles.css">
+    <style>
+       label{
+           color: black;
+       }
+       input{
+           color: black;
+           background: white;
+       }
+        form{
+            align-content: center;
+            alignment: center;
+            color: aqua;
+            text-align: center;
+            font-size: 12px;
+            padding: 20px;
+            margin: 10px;
+        }
+        h2{
+            color: aqua;
+            text-align: center;
+        }
+        a{
+            text-align: center;
+            margin: 250px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>log in form</title>
+</head>
+<body background="images/up.jpg"id="bg">
+<h2>student regisration form</h2>
+<form action="links.html">
+    <div class="fname">
+  <label for="fnname">first name</label>
+    <input type="text"id="fnname"placeholder="Enter first name"><br>
+    </div>
+
+    <div class="lname">
+    <label for="lname">last name</label>
+    <input type="text"id="lname"placeholder="Enter last name"><br>
+    </div>
+
+    <div class="email">
+    <label for="email">email address</label>
+    <input type="email"id="email"placeholder="example@gmail.com"><br>
+    </div>
+
+    <div class="courses">
+    <label for="courses">select course</label>
+    <select name="course" id="courses">
+        <option value="HTML">HTML</option>
+        <option value="Javascript">Javascript</option>
+        <option value="Python">Python</option>
+        <option value="PHP">PHP</option>
+        <option value="C++">C++</option>
+    </select><br>
+    </div>
+
+    <div class="upload">
+    <label for="upload">upload image</label>
+    <input type="file"id="upload"><br>
+    </div>
+
+    <div class="gender">
+    <label for="gender">female</label>
+    <input type="radio"id="gender"name="gender">
+    <label for="male">male</label>
+    <input type="radio"id="male"name="gender">
+    <label for="others">other</label>
+    <input type="radio"id="others"name="gender"><br>
+    </div>
+
+    <div class="dor">
+    <label for="dor">date of registration</label>
+    <input type="date"id="dor"><br>
+    </div>
+
+    <div class="pass">
+    <label for="pass">password</label>
+    <input type="password"id="pass"><br>
+    </div>
+
+    <div class="submit">
+    <input type="submit"value="register"><br>
+    </div>
+
+    <button type="button"onclick="alert('enjoy your holiday')">click for holiday</button>
+    <br>
+</form>
+<a href="form.html">refresh</a>
+</body>
+</html>

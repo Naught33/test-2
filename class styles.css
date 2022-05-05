@@ -1,0 +1,46 @@
+.fruits,.Cars{
+    border: 2px solid #c7a6ae;
+    padding: 40px;
+    background-color: brown;
+    margin: 20px;
+    color: white;
+}
+.animals{
+    color: aqua;
+    background-color: black;
+    font-family: Chandas;
+    padding: 40px;
+    border: 2px;
+    margin: 20px;
+
+}
+.cars{
+    background-color: black;
+    color: mediumvioletred;
+    font-family: "DejaVu Sans Light";
+    padding: 40px;
+    margin: 20px;
+    border: 2px;
+}
+.cars,.cars,.Cars,.animals,.fruits{
+    size: A5;
+}
+#COUNTRY{
+    color: mediumvioletred;
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+}
+#country\ 2{
+    margin: 20px;
+    padding: 40px;
+    color: chartreuse;
+    background-color: aqua;
+}
+#Uganda{
+    margin: 20px;
+    padding: 40px;
+    color: black;
+    background-color: firebrick;
+}
+
